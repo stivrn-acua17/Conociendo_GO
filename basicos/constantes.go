@@ -1,4 +1,5 @@
-package conceptos
+package basicos
+
 import "fmt"
 
 const Pi = 3.14 // GLOBAL
@@ -9,8 +10,13 @@ const (
 
 // Constantes -----------------------------------------------------------------------
 func Constantes() {
+	example_constante_1()
+}
+
+
+func example_constante_1() {
 	// LLAMANDO CONSTANTE GLOBAL ------------------------------------------------------
+	fmt.Println("EJEMPLO IF 1")
 	fmt.Println(Pi)
 	fmt.Println(A + B)
-
 }
