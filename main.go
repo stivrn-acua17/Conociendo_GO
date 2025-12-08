@@ -7,6 +7,6 @@ import (
 
 // EN GO SOLO SE GENERAN EJECUTABLES A LA ALTURA MAIN
 func main() {
-	construcciones.Chan()
+	construcciones.Goto()
 }
 

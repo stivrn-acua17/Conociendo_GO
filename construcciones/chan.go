@@ -12,9 +12,7 @@ func example_chan_1() {
 	fmt.Println("EJEMPLO CHAN 1")
 	ch := make(chan int)
 
-	go func() {
-		ch <- 42
-	}()
+	go func() { ch <- 42 }() // Funcion anonima
 
 	val := <-ch
 	fmt.Println(val)
