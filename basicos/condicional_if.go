@@ -6,7 +6,7 @@ import (
 )
 
 // Condicionales --------------------------------------------------------------------
-func Condicional_if() {
+func CondicionalIf() {
 	// Funciones ----------------------------------------------------------------------
 	decirHola()
 	suma := add(2, 3)

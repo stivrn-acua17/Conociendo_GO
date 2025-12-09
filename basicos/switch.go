@@ -2,7 +2,7 @@ package basicos
 
 import "fmt"
 
-func Switch_func() {
+func Switch() {
 	example_switch_1()
 	example_switch_2()
 	example_switch_3()

@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func Go_Routine() { // Concurrencia
+func GoRoutine() { // Concurrencia
 	example_go_1()
 	example_go_2()
 }

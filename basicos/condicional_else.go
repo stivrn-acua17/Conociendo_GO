@@ -2,7 +2,7 @@ package basicos
 
 import "fmt"
 
-func Condicional_else() {
+func CondicionalElse() {
 	example_else_1()
 }
 
