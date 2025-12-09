@@ -1,4 +1,4 @@
-package construcciones
+package concurrenciayabstraccion
 
 import "fmt"
 

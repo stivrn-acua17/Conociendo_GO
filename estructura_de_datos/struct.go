@@ -1,4 +1,4 @@
-package controlflujo
+package estructuradedatos
 
 import "fmt"
 
@@ -23,6 +23,8 @@ func example_struct_1() {
 		Edad: 29,
 	}
 
+	nombre := p.Nombre
+	fmt.Println(nombre)
 	fmt.Println(p)
 }
 

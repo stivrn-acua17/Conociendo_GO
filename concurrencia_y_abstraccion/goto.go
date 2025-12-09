@@ -1,4 +1,4 @@
-package construcciones
+package concurrenciayabstraccion
 
 import "fmt"
 
@@ -15,7 +15,7 @@ func example_goto_1() {
 	fmt.Println("EJEMPLO GOTO 1")
 	fmt.Println("Antes de goto")
 	goto End
-	fmt.Println("Esto no se ejecutara")
+	//fmt.Println("Esto no se ejecutara")
 	End:
 		fmt.Println("Despues de goto")
 }
